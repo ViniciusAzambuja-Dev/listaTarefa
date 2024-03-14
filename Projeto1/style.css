@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+
+body{
+    color: black;
+    background-color: rgb(219, 219, 219);
+}
+h1{
+    text-align: center;
+    margin: 15px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto auto;
+}
+#digiteTarefa{
+    padding: 30px;
+    width: 85%;
+    border-width: 2px;
+    border-color: black;
+}
+.button_Add{
+    width:15%;
+    background-color: rgb(85, 226, 85);
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-width: 2px;
+    border-left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+.button_Add:hover{
+    background-color: rgb(72, 238, 72);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto auto;
+    padding-top: 40px ;
+}
+
+.divPAI_lista{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 100%;
+   height: 80px;
+   background-color: white;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+.icone_Div{
+    flex: 20%;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.nome_Tarefa{
+    flex: 55%;
+   
+}
+.div_Button_Deletar{
+    flex:25%;
+    height: 80px;
+}
+
+.button_Deletar{
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: rgb(248, 65, 65);
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.button_Deletar:hover{
+    background-color: rgb(255, 0, 0);
+}
+
