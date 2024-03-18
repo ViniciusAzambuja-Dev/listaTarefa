@@ -38,6 +38,15 @@ function check(id){
         icone.classList.remove('mdi-circle-outline');
         icone.classList.add('mdi-check-circle');
       }
+      else{
+        item.classList.remove('itemclicado');
+        item.classList.add('item');
+
+        var icone = document.getElementById("icone_"+ id);
+        icone.classList.remove('mdi-check-circle');
+        icone.classList.add('mdi-circle-outline');
+    
+      }
 }
 
 function deletar(id){
