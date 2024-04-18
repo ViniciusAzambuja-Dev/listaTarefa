@@ -1,5 +1,5 @@
 # Projeto Simples de uma Lista de Tarefas
-Este é um projeto simples desenvolvido em Fevereiro de 2024. Consiste em uma página web de uma Lista de Tarefas!
+Este é um projeto simples desenvolvido em 2024. Consiste em uma página web de uma Lista de Tarefas!
 
 ## Tecnologias Utilizadas
 
